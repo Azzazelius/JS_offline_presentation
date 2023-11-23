@@ -66,7 +66,7 @@ var chartOptions = {
     },
     title: {
       display: true,
-      text: 'Динамика показателя ОФВ1(%)',
+      text: 'Снотворный эффект разных медиа',
       position: 'top',
       align: 'start'
     }
