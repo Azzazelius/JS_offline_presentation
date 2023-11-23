@@ -1,0 +1,14 @@
+.page {
+    margin: 0;
+    padding: 0;
+    width: 1024px;
+    height: 768px;
+    background-image: url("../content/bg_sky_red.png");
+    background-size: contain;
+    /* background-size: 50%; */
+    background-repeat: no-repeat;
+    background-position: left 185px  top;
+    /* background-position: left 82% top; */
+    /* background-attachment: fixed; */
+    
+}

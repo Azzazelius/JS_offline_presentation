@@ -1,0 +1,42 @@
+.background {
+    margin: 0;
+    padding: 0;
+    width: 1024px;
+    height: 768px;
+    background-image: url("../content/bg_sky.png");
+    background-size: contain;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left 513px  top;
+}
+
+.background_info {
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../content/bg_info_1.png");
+    background-size: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.background_info__pattern {
+  width: 512px;
+  height: 623px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("../content/bg_info_2.png");
+  background-color: rgb(26, 61, 180); /* Здесь указывается цвет фона */
+  background-size: auto;
+  background-size: 100%;
+  /* background-size: contain; */
+
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-blend-mode: overlay;
+  /* opacity: 0.5; */
+      
+}
+

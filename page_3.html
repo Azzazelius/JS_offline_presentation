@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="background">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="content/favicon.png">
+    <link href="css/background.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/navigation.css" rel="stylesheet" type="text/css">
+    <link href="css/info_plate.css" rel="stylesheet" type="text/css">
+    <link href="css/chart.css" rel="stylesheet" type="text/css">
+    <title>Game changer research</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav class="header__navigation">
+                <a class="header__buttons" href="page_1.html" ><img src="content/home-ico.png" alt=""></a>
+                <a class="header__buttons" href="page_info.html" ><img src="content/links-ico.png" alt=""></a>
+            </nav>           
+            <p class="header__brand_name">BRITISH RESEARCHES<sup>®</sup></p>
+            <div class="header__brand_background">
+                <img  src="content/logo_bg.png" alt="">
+                <img  class="header__brand_icon" src="content/logo.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <content>
+        <canvas class="myChart_3" data-label1="Тиотропиум®" data-label1="Спирива®"></canvas>   
+        <div class="info_plate">
+            <p class="info_plate__text">
+                В исследовании не делалось различий между первичными (человек изначально хотел спать) и вторичных (уснул под влиянием контента) предпосылками к засыпанию <br>
+                Из статистики исключили случаи когда человек уснул за книгой, а затем внутри сна уснул за фильмом или наоборот.
+            </p>
+        </div>
+    </content>
+
+    <navigation class="navigation">           
+        <button class="navigation__button" onclick="window.location.href = 'page_1.html'"></button>
+        <button class="navigation__button" onclick="window.location.href = 'page_2.html'"></button>
+        <button class="navigation__pressed_button" onclick="window.location.href = 'page_3.html'"></button>
+    </navigation>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+<script src="js/chart_3.js"></script>
+
+</html>

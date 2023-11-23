@@ -1,0 +1,7 @@
+.myChart, .myChart_2, .myChart_3 {
+    max-width: 720px;
+    max-height: 350px;
+    margin-left: 20px;
+    margin-top: 160px;
+    color: white
+}

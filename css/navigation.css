@@ -1,0 +1,70 @@
+.navigation {
+    position: absolute;
+    left: 390px;
+    top: 610px;
+    width: 50%;
+  }
+
+.navigation__button {
+    width: 48px;
+    height: 48px;
+    background-image: url("../content/btn_normal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    margin: 0 10px;
+}
+
+.navigation__button:active {
+    background-image: url("../content/btn_pressed.png");
+}
+
+.navigation__pressed_button {
+    width: 48px;
+    height: 48px;
+    background-image: url("../content/btn_pressed.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    margin: 0 10px;
+}
+
+.navigation_about {
+    width: 1024px;
+    height: 145px;
+    position: absolute;
+    top: 623px;
+    left: 0px;
+
+    background-color: white;
+  }
+
+.navigation_about__button {
+    left: 512px;
+    margin: -24px;
+    position: absolute;
+
+    width: 48px;
+    height: 48px;
+    background-image: url("../content/bnt_close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.navigation_about__text {
+    margin: 40px 40px;
+    color: gray;
+    font-size: 18px;
+
+
+}

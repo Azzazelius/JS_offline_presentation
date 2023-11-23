@@ -1,0 +1,23 @@
+.info_plate {
+    position: absolute;
+    display: flex;
+    left: 740px;
+    top: 200px;
+    width: 270px;
+    height: 220px;
+    background-color: #ffffff;
+    border: solid 2px;
+    border-radius: 25px;
+    border-color: #1a3db4;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.info_plate__text {
+    margin: 0 10px 2px;
+    align-items: center;
+    font-size: 1rem;
+    font: 1em sans-serif;
+    color: #1a3db4;
+  }

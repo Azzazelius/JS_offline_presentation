@@ -1,0 +1,60 @@
+
+.header {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 6px .7em rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+
+  }
+
+.header__navigation {
+    gap: 15%;
+    display: flex;
+    transform-origin: top left;
+    transform: scale(0.5);
+    margin-top: 15px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.header__buttons:hover {
+    opacity: 0.5;
+}
+
+.header__button_pressed {
+    opacity: 0.5;
+}
+
+.header__brand_background {
+    transform-origin: top right;
+    transform: scale(0.5);
+    position: relative;
+
+}
+
+.header__brand_icon {
+    position: absolute;
+    top: -40px;
+    left: -7px;
+    scale: 47%;
+    filter: invert();
+}
+
+.header__brand_name {
+    /* font-size: 20px; */
+    position: absolute;
+    left: 700px;
+    text-align: end;
+    margin-top: 10px;
+    font: 500 23px system-ui;
+    font-stretch: wider;
+    color: rgb(26, 61, 180);
+    vertical-align: bottom;
+}
+
+
